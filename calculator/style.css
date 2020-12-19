@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Mono", monospace, sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    user-select: none;
+}
+
+
+
+
+/* July */
+
+
+
+
+/* dark theme styles */
+
+.dark {
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark main {
+    background-color: #272727;
+}
+
+.dark section {
+    padding: 40px;
+    background-color: #272727;
+    box-shadow: -6px -6px 9px #272727, 6px 6px 9px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+.dark p {
+    box-shadow: inset -6px -6px 9px #202020, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+    width: 320px;
+    height: 60px;
+    padding: 16px 32px;
+    text-align: right;
+    border-radius: 30px;
+}
+
+.dark main .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.8rem;
+    margin-top: 20px;
+}
+
+.dark main button:active {
+    box-shadow: inset -6px -6px 9px #fff, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+}
+
+.dark main button:hover, main button:active {
+    background: #333333;
+    transition: 0.3s;
+}
+
+.dark main button {
+    box-shadow: -6px -6px 9px #272727, 6px 6px 9px rgba(0, 0, 0, 0.4);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #303030;
+}
+
+.dark main .op__key {
+    color: #ff652f;
+    font-weight: 500;
+}
+
+.dark main .num__key {
+    color: white;
+    font-weight: 500;
+}
+
+.dark #theme {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.dark .keys {
+    background-color: #272727;
+}
+
+.dark span {
+    background-color: #272727;
+}
+
+.dark #paragraph {
+    background-color: #272727;
+    color: white;
+}
+
+.dark .eq__key {
+    color: white;
+}
+
+.dark #theme {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* light theme styles */
+
+.light {
+    margin: 0;
+    padding: 0;
+    background-color: #E9E9E9;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light section {
+    padding: 40px;
+    background-color: white;
+    box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+.light p {
+    box-shadow: inset -6px -6px 9px #fff, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+    width: 320px;
+    height: 60px;
+    padding: 16px 32px;
+    text-align: right;
+    border-radius: 30px;
+}
+
+.light main .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.8rem;
+    margin-top: 20px;
+}
+
+.light main button:active {
+    box-shadow: inset -6px -6px 9px #fff, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+}
+
+.light main button:hover, main button:active {
+    background: #b3b1b1;
+    transition: 0.3s;
+}
+
+.light main button {
+    box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(0, 0, 0, 0.4);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.light main .op__key {
+    color: #ff652f;
+    font-weight: 500;
+}
+
+.light main .num__key {
+    color: black;
+    font-weight: 500;
+}
+
+.light #theme {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+i {
+    background: none;
+}
